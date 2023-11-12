@@ -87,9 +87,9 @@ function showGameResult(winner) {// выводим результат игры
     textAlign(CENTER, CENTER); // выводим надпись с итогами
     textSize(size / 2);
     if(winner == 'wolf')
-        text('🐱‍👤 Волки победили 🐱‍👤', canvasSize/2, canvasSize/2);// тернарный оператор
+        text('🐺 Волки победили 🐺', canvasSize/2, canvasSize/2);
     else
-        text('🌈 Овца победила 🌈', canvasSize/2, canvasSize/2);
+        text('🐑 Овца победила 🐑', canvasSize/2, canvasSize/2);
 }
 
 function mousePressed() { //переставляем фишки тут
