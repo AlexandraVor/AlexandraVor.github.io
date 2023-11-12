@@ -11,7 +11,7 @@ let turn = 'endGame';
 let gameProcessing = false;
 let gameResult = null;
 function setup() {
-    canvasSize = Math.floor(Maht.min(windowHeight, windowWidth) * 0.9); //вычисляем размер поля в зависимости от размеров веб-страницы
+    canvasSize = Math.floor(Math.min(windowHeight, windowWidth) * 0.9); //вычисляем размер поля в зависимости от размеров веб-страницы
     size = canvasSize / cells;                   //вычисляем ширину клетки
     createCanvas(canvasSize, canvasSize);        //создаем игральное поле
 
