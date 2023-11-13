@@ -11,7 +11,7 @@
 
         let test = null;
 
-        if (recursiveLevel >= 5) //если глубина > 5 выбираем наилучший ход 
+        if (recursiveLevel >= 7) //если глубина > 7 выбираем наилучший ход 
         {
             return this.getHeuristicEvaluation();
         }
